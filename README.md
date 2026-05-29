@@ -1,6 +1,6 @@
 # Patrick Omland
 
-**Senior Platform Engineer · Cloud Native · Infrastructure**  
+**Senior Platform Engineer · Cloud Native · Infrastructure**
 
 ---
 
@@ -27,24 +27,24 @@ Custom IaaS built on libvirt/QEMU/KVM, OVN/OVS, Ceph RBD, Go/Gin REST API, React
 **Finio** *(private)*  
 Multi-tenant SaaS accounting platform — Django 6, Postgres, RabbitMQ, Keycloak, React/Vite.
 
-**IAM & Security**
-Keycloak, LDAP, OIDC/OAuth2, cosign/Sigstore, SBOM (syft/trivy), Kyverno ClusterPolicy enforcement, reproducible builds
-
 ---
 
 ## Stack
-
-**Linux & Systems**  
-Debian, Red Hat, networking stack, service management, architecture design
 
 **Kubernetes & Cloud Native**  
 Kubernetes, Cluster API, Flux, ArgoCD, Kyverno, cert-manager, Helm, Operator SDK, kubebuilder, Metal3, Talos Linux
 
 **Infrastructure & IaC**  
-OpenStack, Terraform, Vault, GitLab CI/CD, GitHub Actions
+OpenStack, Terraform, Terragrunt, GitLab CI/CD, GitHub Actions
 
-**Networking & Storage**  
+**Linux & Systems**  
+Debian, Red Hat, systemd, networking stack, service management, architecture design
+
+**Networking, Storage & Data**  
 OVN/OVS, Ceph, Galera, PostgreSQL, RabbitMQ, Kafka
+
+**IAM & Security**  
+Keycloak, LDAP, OIDC/OAuth2, cosign/Sigstore, SBOM (syft/trivy), Kyverno ClusterPolicy enforcement, reproducible builds
 
 **Go & Python**  
 REST APIs (Gin, FastAPI), Kubernetes operators, SDKs, CLI tooling — interface-first design, envtest. Frontend when necessary (React/Vite).
@@ -52,16 +52,13 @@ REST APIs (Gin, FastAPI), Kubernetes operators, SDKs, CLI tooling — interface-
 **Observability**  
 Prometheus, Grafana, Alertmanager
 
-**Supply Chain Security**  
-cosign/Sigstore, SBOM (syft/trivy), Kyverno ClusterPolicy enforcement, reproducible builds
-
 ---
 
 ## Background
 
 Senior platform engineer with deep expertise across the full stack — Cloud Native, OpenStack, Linux systems engineering, networking, storage, and bare metal provisioning. I design and operate platforms that are highly available and secure by design, not by accident.
 
-Deep Linux knowledge across Debian and Red Hat ecosystems — service management, kernel internals, networking stack. Strong architecture background: designing systems from bare metal up, not just deploying on top of what's already there.
+Deep Linux knowledge across Debian and Red Hat ecosystems. Strong architecture background: designing systems from bare metal up, not just deploying on top of what's already there.
 
 Strong development background in Go and Python. IaC-first. The abstractions only make sense if you understand what's underneath.
 
