@@ -3,8 +3,7 @@
 
 I design and operate cloud platforms from bare metal to application layer — Kubernetes, OpenStack, Linux systems engineering. IaC-first. Strong Go and Python background with a focus on operators, SDKs, and production-grade tooling.
 
-Active in the CNCF ecosystem. KubeCon Amsterdam 2025.
-
+Active in the CNCF ecosystem.
 ---
 
 ## Projects
