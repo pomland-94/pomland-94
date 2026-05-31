@@ -15,7 +15,7 @@ Kubebuilder-based DNS operator with `DNSZone` and `DNSRecord` CRDs, per-namespac
 Go SDK for the Poweradmin DNS API — functional options, interface-first design, generated mocks.
 
 **smax-operator** *(work, internal)*
-Kubernetes operator that auto-opens and closes ITSM change tickets based on deployment events. 85%+ test coverage.
+Kubernetes operator that auto-opens and closes ITSM change tickets based on deployment events.
 
 **Self-hosted Cloud Platform** *(PoC)*
 Custom IaaS on libvirt/QEMU/KVM, OVN/OVS, Ceph RBD, Go/Gin REST API, React frontend.
