@@ -1,35 +1,46 @@
 # Patrick Omland
-**Senior Platform Engineer · Cloud Native · Infrastructure**
 
-I design and operate cloud platforms from bare metal to application layer — Kubernetes, OpenStack, Linux systems engineering. IaC-first. Strong Go and Python background with a focus on operators, SDKs, and production-grade tooling.
+**Senior Platform Engineer** — Cloud Native · Enterprise Infrastructure · Operators
 
-Active in the CNCF ecosystem.
----
+I build and operate highly available, secure cloud platforms to modern engineering standards. From OpenStack and Kubernetes infrastructure to the Go operators and SDKs that extend and automate it — I don't just run platforms, I evolve them.
 
-## Projects
-
-**[poweradmin-operator](https://github.com/Contentways/poweradmin-operator)**
-Kubebuilder-based DNS operator with `DNSZone` and `DNSRecord` CRDs, per-namespace credentials, Helm chart.
-
-**[poweradmin-go](https://github.com/Contentways/poweradmin-go)**
-Go SDK for the Poweradmin DNS API — functional options, interface-first design, generated mocks.
-
-**smax-operator** *(work, internal)*
-Kubernetes operator that auto-opens and closes ITSM change tickets based on deployment events.
-
-**Self-hosted Cloud Platform** *(PoC)*
-Custom IaaS on libvirt/QEMU/KVM, OVN/OVS, Ceph RBD, Go/Gin REST API, React frontend.
+I care about operational correctness over feature velocity: explicit over magic, reproducible over convenient, tested over trusted.
 
 ---
 
-## Stack
+## Open Source
 
-Kubernetes · OpenStack · Talos Linux · Terraform/Terragrunt · ArgoCD · Flux · Kyverno · cert-manager · kubebuilder  
-OVN/OVS · Ceph · Galera · PostgreSQL · RabbitMQ  
-Go · Python · Gin · FastAPI · React  
-Prometheus · Grafana · Alertmanager  
-Keycloak · LDAP · OIDC · cosign/Sigstore · SBOM
+### [Contentways/poweradmin-operator](https://github.com/Contentways/poweradmin-operator)
+*Kubebuilder · Go · Helm · cosign · SBOM*
+
+DNS lifecycle operator for Kubernetes. Implements `DNSZone` and `DNSRecord` CRDs with per-namespace credential isolation, controller reconciliation loops, envtest-covered test suite, and a production-ready Helm chart with CRD lifecycle hooks. Multi-arch Docker images, SLSA-adjacent supply chain (cosign signatures, SBOM). Recognized in the official [Poweradmin 4.2.4/4.3.3 release notes](https://poweradmin.org).
+
+### [Contentways/poweradmin-go](https://github.com/Contentways/poweradmin-go)
+*Go SDK · Interface-first design*
+
+Full API SDK for Poweradmin — functional options pattern, `IZoneClient`/`IRecordClient` interfaces, generated mocks via gowrap, DTO mapping via goverter. v2 ships string-typed record IDs and DNSSEC support. Follows the hcloud-go design philosophy: no global state, composable, testable.
+
+### [Contentways/poweradmin-cli](https://github.com/Contentways/poweradmin-cli)
+*Cobra · Multi-arch*
+
+CLI frontend for the poweradmin-go SDK. Full Poweradmin 4.3.x API coverage, zone export/import, permission templates, auto-generated reference docs, multi-arch Docker.
+
+### [external-dns-poweradmin-webhook](https://github.com/Contentways/external-dns-poweradmin-webhook) *(in progress)*
+ExternalDNS webhook provider backed by the poweradmin-go SDK. Brings Poweradmin into the standard Kubernetes DNS automation model.
 
 ---
 
-> *Debian on servers. IaC or it didn't happen. Explicit Kubernetes over magic platforms.*
+
+
+## Engineering Posture
+
+```
+Platform  →  Kubernetes · OpenStack · Talos Linux
+IaC       →  Terraform · Helm · ArgoCD · Flux
+Network   →  OVN/OVS · Octavia · cert-manager · ExternalDNS
+Storage   →  Ceph RBD · PostgreSQL/Galera · RabbitMQ
+Observ.   →  Prometheus · Grafana · Alertmanager
+Auth      →  Keycloak · LDAP · OIDC
+Supply    →  cosign/Sigstore · SBOM · Kyverno · GHCR
+Dev       →  Go · kubebuilder · Operator SDK · Python · Linux
+```
