@@ -8,7 +8,7 @@ I care about operational correctness over feature velocity: explicit over magic,
 
 ---
 
-## Open Source
+## 🔧 Open Source
 
 ### [Contentways/poweradmin-operator](https://github.com/Contentways/poweradmin-operator)
 *Kubebuilder · Go · Helm · cosign · SBOM*
@@ -32,7 +32,7 @@ ExternalDNS webhook provider backed by the poweradmin-go SDK. Brings Poweradmin 
 
 
 
-## Engineering Posture
+## 🏗️ Engineering Posture
 
 ```
 Platform  →  Kubernetes · OpenStack · Talos Linux
