@@ -13,7 +13,7 @@ I care about operational correctness over feature velocity: explicit over magic,
 ### [Contentways/poweradmin-operator](https://github.com/Contentways/poweradmin-operator)
 *Kubebuilder · Go · Helm · cosign · SBOM*
 
-DNS lifecycle operator for Kubernetes. Implements `DNSZone` and `DNSRecord` CRDs with per-namespace credential isolation, controller reconciliation loops, envtest-covered test suite, and a production-ready Helm chart with CRD lifecycle hooks. Multi-arch Docker images, SLSA-adjacent supply chain (cosign signatures, SBOM). Recognized in the official [Poweradmin 4.2.4/4.3.3 release notes](https://poweradmin.org).
+DNS lifecycle operator for Kubernetes. Implements `DNSZone` and `DNSRecord` CRDs with per-namespace credential isolation, controller reconciliation loops, envtest-covered test suite, and a production-ready Helm chart with CRD lifecycle hooks. Multi-arch Docker images, SLSA-adjacent supply chain (cosign signatures, SBOM).
 
 ### [Contentways/poweradmin-go](https://github.com/Contentways/poweradmin-go)
 *Go SDK · Interface-first design*
