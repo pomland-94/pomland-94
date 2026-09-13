@@ -9,11 +9,6 @@
     depending on the project. Nerd since I can remember.
 </p>
 
-<p align="justify">
-    In my spare time I build and maintain the Poweradmin ecosystem
-    (SDK, Operator, CLI) — usually because a tool I needed didn't exist yet.
-</p>
-
 <p align="center">
     <img src="https://github-readme-stats-fast.vercel.app/api?username=pomland-94&count_private=true&show_icons=true&hide_title=true" alt="GitHub Stats" />
 </p>
