@@ -4,8 +4,8 @@
 
 <p align="justify">
     I'm an Enterprise Platform Engineer building cloud platforms to modern
-    engineering and security standards. My focus is OpenStack, Kubernetes
-    operators, Go and Python — on bare metal or on top of existing platforms,
+    engineering and security standards. My focus is OpenStack, Kubernetes,
+    Go and Python — on bare metal or on top of existing platforms,
     depending on the project. Nerd since I can remember.
 </p>
 
